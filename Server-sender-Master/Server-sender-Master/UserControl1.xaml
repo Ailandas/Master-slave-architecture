@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Server_sender_Master.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Server_sender_Master"
+             mc:Ignorable="d" Width="350" Height="75">
+    <Grid Background="White">
+        <Rectangle HorizontalAlignment="Left" Height="75" Stroke="Black" VerticalAlignment="Top" Width="350"/>
+
+        <ProgressBar x:Name="ClientProgressBar" HorizontalAlignment="Left" Height="40" Margin="105,25,0,0" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.433,0.875"/>
+        <Label x:Name="lblClientName" Content="Label" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.769" Width="100" Height="40" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblProgress" Content="" HorizontalAlignment="Left" Margin="280,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.769" Width="30" Height="30" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Client ID" HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Top" Height="25" Width="85"/>
+        <Label Content="Apdoroti x5" HorizontalAlignment="Left" Margin="260,0,0,0" VerticalAlignment="Top" Height="25" Width="85"/>
+        <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="105,0,0,0" VerticalAlignment="Top" Width="150" Height="25" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</UserControl>
